@@ -1,0 +1,35 @@
+{
+  "name": "prompt-mate",
+  "version": "1.0.0",
+  "description": "A fast personal prompt library for macOS",
+  "main": "electron-main.cjs",
+  "author": "Prompt Mate",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "build:mac": "electron-builder --mac dir",
+    "dist:mac": "electron-builder --mac dmg"
+  },
+  "devDependencies": {
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.promptmate.app",
+    "productName": "Prompt Mate",
+    "files": [
+      "index.html",
+      "styles.css",
+      "app.js",
+      "electron-main.cjs",
+      "assets/**/*"
+    ],
+    "directories": { "output": "dist" },
+    "mac": {
+      "category": "public.app-category.productivity",
+      "icon": "assets/icon.png",
+      "target": [{ "target": "dir", "arch": ["arm64"] }],
+      "identity": null
+    }
+  }
+}
