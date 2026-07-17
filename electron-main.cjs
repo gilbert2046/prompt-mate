@@ -12,6 +12,8 @@ function createWindow() {
     title: 'Prompt Mate',
     icon: path.join(__dirname, 'assets', 'icon.png'),
     backgroundColor: '#f3f0e9',
+    titleBarStyle: 'hidden',
+    trafficLightPosition: { x: 18, y: 18 },
     webPreferences: {
       contextIsolation: true,
       nodeIntegration: false,
