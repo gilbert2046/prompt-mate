@@ -5,6 +5,15 @@
   <p>A fast, multilingual prompt library for macOS.</p>
 </div>
 
+## Product preview
+
+<p align="center">
+  <img src="assets/screenshots/overview-light.png" width="49%" alt="Prompt Mate light mode in French">
+  <img src="assets/screenshots/overview-dark.png" width="49%" alt="Prompt Mate dark mode in English">
+</p>
+
+<p align="center"><em>Light and dark themes with Chinese, English, and French interface options.</em></p>
+
 ## Why Prompt Mate?
 
 Useful prompts tend to disappear across notes, chats, and documents. Prompt Mate turns them into a personal, searchable library that stays one keyboard shortcut away—so finding the right instruction feels closer to using an input method than managing a database.
